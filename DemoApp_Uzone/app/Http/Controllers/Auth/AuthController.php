@@ -27,6 +27,6 @@ class AuthController extends Controller
     public function login(LoginFormRequest $request )
     {
         dd($request->all());
-          printf('ssss');
+        
     }
 }
